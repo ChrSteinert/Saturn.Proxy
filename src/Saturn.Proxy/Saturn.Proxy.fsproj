@@ -1,7 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>Saturn.Proxy</PackageId>
+    <Title>Saturn.Proxy</Title>
+    <Authors>ChrSt</Authors>
+    <Owners>ChrSt</Owners>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ChrSteinert/Saturn.Proxy</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ChrSteinert/Saturn.Proxy.git</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Description>Provides the `proxy` custom operation for Saturn's `router` builder.</Description>
+    <Copyright>Copyright 2020</Copyright>
+    <PackageTags>F# fsharp ASP.NET Saturn ReverseProxy</PackageTags>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Library.fs" />

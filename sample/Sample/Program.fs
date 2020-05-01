@@ -1,10 +1,4 @@
-﻿
-open System
-
-open Giraffe
-
-
-open Saturn.Proxy
+﻿open Saturn.Proxy
 open Saturn
 
 let r = router {
