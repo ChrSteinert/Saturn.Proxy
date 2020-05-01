@@ -10,7 +10,7 @@ It can be used to forward requets when developing websites (for instance with SA
 
 ## Usage
 
-_See the sample_
+_Please don't use this in production…_
 
 On any router, just add 
 ```fs
