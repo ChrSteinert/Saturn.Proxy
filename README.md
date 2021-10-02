@@ -12,6 +12,8 @@ It can be used to forward requets when developing websites (for instance with SA
 
 _Please don't use this in production…_
 
+Install from NuGet [Saturn.Proxy](https://www.nuget.org/packages/Saturn.Proxy/).
+
 On any router, just add 
 ```fs
 let r = router {
